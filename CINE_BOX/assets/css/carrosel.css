@@ -1,0 +1,15 @@
+#baner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#baner img{
+    width: 100%;
+}
+
+.carrosel-container{
+    width: 100%;
+    max-width: 1920px;
+    border: 2px solid #cccccc; 
+    border-radius: 10px;
+}
