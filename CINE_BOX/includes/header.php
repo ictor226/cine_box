@@ -1,3 +1,6 @@
+<?php session_start(); ?>
+
+
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
@@ -21,19 +24,20 @@
     <link rel="stylesheet" href="./assets/css/carrosel.css">
     <link rel="stylesheet" href="./assets/css/filmes.css">
     <link rel="stylesheet" href="./assets/css/usuario.css">
+    <link rel="stylesheet" href="./assets/css/login.css">
 
 </head>
 <body>
     <!-- inicio -->
     <header>
-        <nav>
+        <nav class="menu-perfil">
             <a href="./index.php" class="logo">
                 <h1>CineBox</h1>
             </a>
             <ul class="menu">
                 <li><a href="./index.php">Inicio</a></li>
                 <li><a href="./listarfilmes.php">filmes</a></li>
-                <li><a href="#">sobre</a></li>
+                <li><a href="./sobre.php">sobre</a></li>
 
             </ul>
             <ul class="menu-icones">
@@ -47,8 +51,8 @@
             <div id="offcanvas" class="menu-oculto">
                 <button class="fechar" onclick="javascript:fecharNav()"><i class="bi bi-x"></i></button>
                 <a href="index.html">Inicio</a>
-                <a href="#">Filmes</a>
-                <a href="#">Sobre</a>
+                <a href="./listarfilmes.php">Filmes</a>
+                <a href="./sobre.php">Sobre</a>
             </div>
         </nav>
 
