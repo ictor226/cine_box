@@ -5,7 +5,10 @@
 
 
         <?php 
-          foreach ($dadosFilmes as $value){ 
+          foreach ($dadosFilmes as $value){
+
+           $generoFilmes = $bob->consultarGeneroByIdfilme($value['id']);
+           
           include './includes/filme_card.php';
         }?>
 

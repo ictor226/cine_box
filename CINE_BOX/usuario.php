@@ -29,7 +29,6 @@ $resultadoConsultaFilmes = $filme->exibirlistaFilmes();
         <?php
         include_once './includes/user_header.php';
         include_once './includes/user_lista_filmes.php';
-
         ?>
     </main>
 </section>

@@ -21,7 +21,6 @@ class Filmes
                 $auxScript = " ORDER BY RAND() LIMIT {$limite}";
 
             }
-           
 
             
             $script = 'SELECT * FROM tb_filmes' .$auxScript;

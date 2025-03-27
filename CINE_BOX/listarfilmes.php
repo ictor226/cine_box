@@ -1,13 +1,22 @@
 <?php 
+
+
+require './classes/Filmes.php';
+require './classes/Generos.php';
+
 $titulo = '';
 include './includes/header.php';
 
-require './classes/Filmes.php';
+
 
 $filme = new Filmes();
 $dadosFilmes = $filme->exibirlistaFilmes();
 
 
-include './includes/filme_lista.php';
+$bob = new Generos();
+$dadosGeneros = $bob->consultarlistaGeneros();
+
+
+include './includes/filmes_filtro.php';
 
 include './includes/footer.php';
