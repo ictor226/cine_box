@@ -10,6 +10,7 @@ class Generos{
         $user = 'root'; 
         $password = '';
         $auxScript = '';
+        
 
         $this->conexaoBanco = new PDO($dsn, $user, $password);
         
