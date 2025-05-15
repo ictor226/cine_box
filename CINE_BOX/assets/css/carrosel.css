@@ -12,7 +12,7 @@
     width: 100%;
     max-width: 1920px;
     border: 2px solid #cccccc; 
-    border-radius: 10px;
+    border-radius: 11px;
     overflow: hidden; 
     position: relative;
 }
@@ -37,7 +37,6 @@
 .carrossel-container>button.anterior{
     left: 10px;
 }
-
 .carrossel-container>button.proximo{
     right: 10px;
 }
